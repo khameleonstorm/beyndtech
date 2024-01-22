@@ -6,7 +6,7 @@ export default function Logo() {
   return (
     <div className="relative">
       <Image src={logo}  alt="logo" width={150} height={40}/>
-      <Image src={flames}  alt="flames" width={30} height={30}/>
+      <Image src={flames}  alt="flames" className="flames"/>
     </div>
   )
 }
